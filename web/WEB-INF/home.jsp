@@ -9,9 +9,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Home</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Home</h1>
+        <h2> Hello ${user.username} </h2>
+        <a href ="login?login"> Log out</a>
+        
     </body>
 </html>
